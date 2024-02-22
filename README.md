@@ -2,7 +2,7 @@
 
 # Infinite Scroll - Dynamic Image Browser: Embracing Functional Programming with Unsplash API
 
-![Quote Generator Preview](screenshot.png)
+![Infinite Scroll Preview](screenshot.png)
 You can check it out [here]().
 
 ## Author
