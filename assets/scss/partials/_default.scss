@@ -1,0 +1,39 @@
+@use "../components/" as *;
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
+
+    // Media query: 600px - Large smartphone
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+    }
+}
+
+h2 {
+    font-size: 20px;
+}

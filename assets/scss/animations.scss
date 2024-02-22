@@ -1,0 +1,50 @@
+@use "variables" as *;
+
+@keyframes backToTopAnimation {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in {
+    0% {
+        background-size: 0%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.4);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+@keyframes hero-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    70% {
+        transform: translateY(100px);
+        opacity: 0.75;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

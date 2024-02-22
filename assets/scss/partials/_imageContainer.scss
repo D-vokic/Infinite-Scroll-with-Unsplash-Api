@@ -1,0 +1,16 @@
+@use "../components/" as *;
+
+#image-container {
+    margin: 10px 30%;
+
+    // Media query: 600px - Large smartphone
+    @media screen and (max-width: 600px) {
+        margin: 10px;
+    }
+
+    & img {
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+    }
+}

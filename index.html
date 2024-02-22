@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinite Scroll</title>
+
+  <!-- Favicon link -->
+  <link rel="shortcut icon" href="assets/img/favicon-512px.png" type="image/x-icon" />
+
+  <!-- Font Awesome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Dark-mode CSS -->
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Title -->
+  <h1 data-aos="fade-right" data-aos-duration="1500">Infinite Scroll</h1>
+  <h2>Dynamic Image Browser: Embracing Functional Programming with Unsplash API</h2>
+
+  <!-- Dark Mode Button -->
+  <button class="drk-mode" id="drk-mode">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+
+  <!-- Copyright -->
+  <p data-aos="fade-left" data-aos-duration="1500" id="p" class="p"
+    style="color: #333; margin-top: 20px; text-align: center; font-size: 14px">
+    Developed and Designed by ©
+    <a href="https://duskovokic.com/" target="_blank" class="p-a"
+      style="text-decoration: none; color: #0077cc; cursor: pointer"><span style="font-weight: bold">Душко
+        Вокић</span></a>
+    © 2024 © All Rights Reserved
+  </p>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <img src="assets/img/loader.svg" alt="loading" />
+  </div>
+
+  <!-- Image Container -->
+  <div class="image-container" id="image-container" </div>
+
+    <!-- Back to top button starts -->
+    <a href="#" class="back-to-top">Back to Top</a>
+<!-- Back to top button ends -->
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Main JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

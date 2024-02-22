@@ -1,0 +1,23 @@
+@use "../components/" as *;
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: $darkColor;
+    color: $lightColor;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    animation: pulse 1s infinite;
+
+    &:hover {
+        background-color: $bodyColor;
+    }
+
+    &.show {
+        display: inline-block;
+    }
+}

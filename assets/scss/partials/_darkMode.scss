@@ -1,0 +1,30 @@
+@use "../components/" as *;
+
+// Dark Mode
+#drk-mode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: $darkColor;
+    color: $lightColor;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    @include trans;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 20px;
+        @include flex(center, center);
+        width: 10%;
+    }
+
+    @media screen and (max-width: 400px) {
+        align-items: center;
+    }
+}
