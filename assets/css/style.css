@@ -96,7 +96,7 @@ h2 {
 #image-container {
   margin: 10px 30%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   #image-container {
     margin: 10px 20%;
   }
