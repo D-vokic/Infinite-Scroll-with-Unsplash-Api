@@ -3,6 +3,10 @@
 #image-container {
     margin: 10px 30%;
 
+    @media screen and (max-width: 992px) {
+        margin: 10px 20%;
+    }
+
     // Media query: 600px - Large smartphone
     @media screen and (max-width: 600px) {
         margin: 10px;
