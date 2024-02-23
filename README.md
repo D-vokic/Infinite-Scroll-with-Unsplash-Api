@@ -3,7 +3,7 @@
 # Infinite Scroll - Dynamic Image Browser: Embracing Functional Programming with Unsplash API
 
 ![Infinite Scroll Preview](screenshot.png)
-You can check it out [here]().
+You can check it out [here](https://d-vokic.github.io/Infinite-Scroll-with-Unsplash-Api/).
 
 ## Author
 
